@@ -4,9 +4,28 @@
 }
 
 body {
-    background-color: rgb(254, 255, 241);
+    background-color: #fefff1;
     text-align: center;
     margin: 10px;
+}
+
+#spicy-index {
+    display: flex;
+    justify-content: center;
+}
+#spicy-index div {
+    background-color: #c6ffc6;
+    padding: 4px;
+    margin: 0 4px;
+    width: 5%;
+    text-align: center;
+    border: #008000, 1px, solid;
+}
+#spicy-index div a {
+    padding: 4px;
+    color: blue;
+    text-decoration: none;
+    background-color: #c6ffc6;
 }
 
 #homepage-h1, #homepage-ul {
@@ -18,25 +37,16 @@ body {
     padding-inline-start: 0px;
     list-style-type: none;
 }
-#spicy-index {
-    display: flex;
-    justify-content: center;
-}
-#spicy-index div {
-    background-color: rgb(198, 255, 198);
-    padding: 4px;
-    margin: 0 4px;
-    width: 5%;
-    text-align: center;
-    border: #008000, 1px, solid;
-}
-#spicy-index div a {
-    padding: 4px;
-    color: blue;
-    text-decoration: none;
-    background-color: whitesmoke;
+
+#homepage-ul li {
 }
 
+#homepage-ul img {
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    margin-right: 0.5%;
+}
 /* Spicy Ratings for Index Page Listing */
 .spicy0, .spicy1, .spicy2, .spicy3, .spicy4, .spicy5 {
     padding: 4px;
