@@ -1,34 +1,69 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    /* border: #ff0000 1px solid; */
 }
 
 body {
-    background-color: #d7f2e3;
-    text-align: left;
-    list-style-position: inside;
+    background-color: rgb(254, 255, 241);
+    text-align: center;
     margin: 10px;
 }
 
 #homepage-h1, #homepage-ul {
     text-align: center;
-    line-height: 1.7;
+    line-height: 2;
 }
 
-#homepage-ul li {
-    list-style: none;
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
-    list-style-image: url("./images/bulletface.png");
+#homepage-ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
 }
-
-#homepage-ul li a {
-    background-color: #EEEEEE;
-    color: #0000ff;
+#spicy-index {
+    display: flex;
+    justify-content: center;
+}
+#spicy-index div {
+    background-color: rgb(198, 255, 198);
+    padding: 4px;
+    margin: 0 4px;
+    width: 5%;
+    text-align: center;
+    border: #008000, 1px, solid;
+}
+#spicy-index div a {
+    padding: 4px;
+    color: blue;
     text-decoration: none;
-    padding: 2px 6px 2px 6px;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
+    background-color: whitesmoke;
+}
+
+/* Spicy Ratings for Index Page Listing */
+.spicy0, .spicy1, .spicy2, .spicy3, .spicy4, .spicy5 {
+    padding: 4px;
+    background-color: white;
+    text-decoration: none;
+    border: black 1px groove;
+}
+
+.spicy0 {
+    color: #008000;
+}
+
+.spicy1 {
+    color: #1cab00;
+}
+
+.spicy2 {
+    color: #87b100;
+}
+
+.spicy3 {
+    color: #9f9f00;
+}
+
+.spicy4 {
+    color: #dc8d04;
+}
+.spicy5 {
+    color: #ff0000;
 }
